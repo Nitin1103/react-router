@@ -9,7 +9,7 @@ import Contact from './components/Contact/Contact.jsx';
 import User from './components/User/User.jsx';
 import Github from './components/Github/Github.jsx';
 
-const basename = 'react-router';
+const basename = '/react-router/'; // replace 'react-router' with your actual repo name
 
 const myrouter = createBrowserRouter([
   {

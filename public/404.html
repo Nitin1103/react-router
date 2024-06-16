@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="refresh" content="0; URL=/" />
+</head>
+
+<body>
+    <script>
+        // Redirect to index.html but maintain the path
+        var currentPath = window.location.pathname;
+        var newPath = currentPath.replace('/react-router/', '/');
+        window.location.replace('/react-router' + newPath);
+    </script>
+</body>
+
+</html>
